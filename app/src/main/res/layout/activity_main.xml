@@ -10,21 +10,22 @@
             android:text="Logar"
             android:layout_width="107dp"
             android:layout_height="35dp" tools:layout_editor_absoluteY="400dp"
-            tools:layout_editor_absoluteX="211dp" android:id="@+id/button3"/>
+            android:id="@+id/button3" app:layout_constraintStart_toEndOf="@+id/button5"
+            android:layout_marginStart="12dp"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="text"
             android:text="Login"
             android:ems="10"
-            tools:layout_editor_absoluteY="223dp" tools:layout_editor_absoluteX="89dp" android:id="@+id/editText"
-    />
+            tools:layout_editor_absoluteX="89dp" android:id="@+id/editText"
+            android:layout_marginBottom="20dp" app:layout_constraintBottom_toTopOf="@+id/editText2"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            tools:layout_editor_absoluteY="292dp" tools:layout_editor_absoluteX="89dp" android:id="@+id/editText2"
+            tools:layout_editor_absoluteY="286dp" tools:layout_editor_absoluteX="89dp" android:id="@+id/editText2"
             android:text="Senha"/>
     <Button
             android:text="Esqueci senha"
