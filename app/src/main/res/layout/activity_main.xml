@@ -8,38 +8,47 @@
         tools:context=".MainActivity" android:id="@+id/linearLayout">
     <Button
             android:text="Logar"
-            android:layout_width="107dp"
-            android:layout_height="35dp" tools:layout_editor_absoluteY="400dp"
-            android:id="@+id/button3" app:layout_constraintStart_toEndOf="@+id/button5"
-            android:layout_marginStart="12dp"/>
+            android:layout_width="102dp"
+            android:layout_height="40dp"
+            android:id="@+id/button3"
+            tools:layout_editor_absoluteY="448dp" tools:layout_editor_absoluteX="215dp"/>
     <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="230dp"
+            android:layout_height="44dp"
             android:inputType="text"
             android:text="Login"
             android:ems="10"
-            tools:layout_editor_absoluteX="89dp" android:id="@+id/editText"
-            android:layout_marginBottom="20dp" app:layout_constraintBottom_toTopOf="@+id/editText2"/>
+            android:id="@+id/editText"
+            tools:layout_editor_absoluteY="291dp" tools:layout_editor_absoluteX="84dp"/>
     <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="231dp"
+            android:layout_height="42dp"
             android:inputType="textPassword"
             android:ems="10"
-            tools:layout_editor_absoluteY="286dp" tools:layout_editor_absoluteX="89dp" android:id="@+id/editText2"
-            android:text="Senha"/>
+            android:id="@+id/editText2"
+            android:text="Senha"
+            tools:layout_editor_absoluteY="356dp" tools:layout_editor_absoluteX="84dp"/>
     <Button
             android:text="Esqueci senha"
             android:layout_width="110dp"
-            android:layout_height="33dp" tools:layout_editor_absoluteY="349dp"
-            tools:layout_editor_absoluteX="89dp" android:id="@+id/button4"/>
+            android:layout_height="34dp"
+            android:id="@+id/button4"
+            tools:layout_editor_absoluteY="410dp" tools:layout_editor_absoluteX="84dp"/>
     <Button
             android:text="Cadastre-se"
-            android:layout_width="95dp"
-            android:layout_height="33dp" tools:layout_editor_absoluteY="400dp"
-            tools:layout_editor_absoluteX="89dp" android:id="@+id/button5"/>
+            android:layout_width="111dp"
+            android:layout_height="34dp"
+            android:id="@+id/button5"
+            tools:layout_editor_absoluteY="454dp" tools:layout_editor_absoluteX="84dp"/>
     <Button
             android:text="Login celular"
-            android:layout_width="109dp"
-            android:layout_height="33dp" tools:layout_editor_absoluteY="147dp"
-            tools:layout_editor_absoluteX="193dp" android:id="@+id/button6"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            tools:layout_editor_absoluteY="123dp" tools:layout_editor_absoluteX="419dp"/>
+    <Button
+            android:text="Login celular"
+            android:layout_width="111dp"
+            android:layout_height="35dp" tools:layout_editor_absoluteY="239dp"
+            tools:layout_editor_absoluteX="206dp" android:id="@+id/button"/>
 </android.support.constraint.ConstraintLayout>
