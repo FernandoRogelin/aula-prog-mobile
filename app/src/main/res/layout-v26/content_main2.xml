@@ -32,7 +32,7 @@
             android:text="@string/login"
             android:ems="10"
             tools:layout_editor_absoluteY="206dp" tools:layout_editor_absoluteX="72dp" android:id="@+id/editText"
-            android:autofillHints="" tools:targetApi="o"/>
+            android:autofillHints=""/>
     <Button
             android:text="@string/login_celular"
             android:layout_width="wrap_content"

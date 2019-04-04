@@ -3,4 +3,10 @@
     <string name="title_activity_main2">Main2Activity</string>
     <string name="button">Button</string>
     <string name="title_activity_login_celular">LoginCelular</string>
+    <string name="logar">Logar</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="senha">Senha</string>
+    <string name="login">Login</string>
+    <string name="login_celular">Login celular</string>
+    <string name="esqueci_senha">Esqueci senha</string>
 </resources>
