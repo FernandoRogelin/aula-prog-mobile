@@ -7,8 +7,57 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity" android:id="@+id/linearLayout" android:orientation="horizontal">
     <Button
-            android:text="Logar"
+            android:text="@string/logar"
+            android:layout_width="111dp"
+            android:layout_height="0dp"
+            android:id="@+id/button5" android:onClick="clickClickMeButton"
+            app:layout_constraintStart_toEndOf="@+id/button8"
+            android:layout_marginStart="16dp" app:layout_constraintTop_toBottomOf="@+id/editText4"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginBottom="269dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginEnd="1dp"
+    />
+    <Button
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="174dp"
-            tools:layout_editor_absoluteX="151dp" android:id="@+id/button5" android:onClick="clickClickMeButton"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/button7" android:layout_marginEnd="108dp" app:layout_constraintEnd_toEndOf="parent"
+            android:text="@string/esqueci_senha" android:layout_marginBottom="60dp"
+            app:layout_constraintBottom_toTopOf="@+id/button5"/>
+    <Button
+            android:text="@string/cadastre_se"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/button8" android:layout_marginTop="60dp"
+            app:layout_constraintTop_toBottomOf="@+id/button7" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="65dp"
+            app:layout_constraintEnd_toStartOf="@+id/button5" android:layout_marginEnd="16dp"
+    />
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/celular"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:layout_marginTop="189dp" android:layout_marginBottom="17dp"
+            app:layout_constraintEnd_toEndOf="@+id/button9" app:layout_constraintBottom_toTopOf="@+id/editText4"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="@+id/button7"
+            android:autofillHints="" tools:targetApi="o"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText4"
+            android:text="@string/senha" android:layout_marginBottom="116dp"
+            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/button7"
+            android:layout_marginStart="1dp" android:autofillHints="" tools:targetApi="o"/>
+    <Button
+            android:text="@string/login_e_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button9" android:layout_marginBottom="36dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText2" android:layout_marginEnd="1dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
 </android.support.constraint.ConstraintLayout>

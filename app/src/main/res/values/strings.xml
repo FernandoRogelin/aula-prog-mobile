@@ -9,4 +9,10 @@
     <string name="login">Login</string>
     <string name="login_celular">Login celular</string>
     <string name="esqueci_senha">Esqueci senha</string>
+    <string name="logar">Logar</string>
+    <string name="esqueci_senha">Esqueci senha</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="celular">Celular</string>
+    <string name="senha">Senha</string>
+    <string name="login_e_mail">Login e-mail</string>
 </resources>
