@@ -22,7 +22,7 @@ class Main2Activity : AppCompatActivity() {
     }
 
     fun clickClickMeButton(view: View) {
-        val intent = Intent( this, LoginCelular::class.java)
+        val intent = Intent( this, Main3Activity::class.java)
         startActivity(intent)
     }
 

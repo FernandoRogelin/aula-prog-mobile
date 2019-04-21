@@ -15,4 +15,10 @@
     <string name="celular">Celular</string>
     <string name="senha">Senha</string>
     <string name="login_e_mail">Login e-mail</string>
+    <string name="entrar">entrar</string>
+    <string name="esqueciSenha">esqueciSenha</string>
+    <string name="cadastreSe">cadastreSe</string>
+    <string name="password">password</string>
+    <string name="loginEmail">loginEmail</string>
+    <string name="title_activity_main3">Main3Activity</string>
 </resources>

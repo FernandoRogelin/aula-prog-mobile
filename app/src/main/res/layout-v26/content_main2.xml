@@ -16,7 +16,7 @@
             app:layout_constraintTop_toTopOf="parent"
             android:layout_marginTop="420dp" app:layout_constraintStart_toEndOf="@+id/button"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="105dp"
-            app:layout_constraintHorizontal_bias="1.0"/>
+            app:layout_constraintHorizontal_bias="1.0" android:onClick="clickClickMeButton"/>
     <Button
             android:text="@string/cadastre_se"
             android:layout_width="wrap_content"

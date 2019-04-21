@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity" android:id="@+id/linearLayout" android:orientation="horizontal">
     <Button
-            android:text="@string/logar"
+            android:text="@string/entrar"
             android:layout_width="111dp"
             android:layout_height="0dp"
             android:id="@+id/button5" android:onClick="clickClickMeButton"
@@ -20,10 +20,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button7" android:layout_marginEnd="108dp" app:layout_constraintEnd_toEndOf="parent"
-            android:text="@string/esqueci_senha" android:layout_marginBottom="60dp"
+            android:text="@string/esqueciSenha" android:layout_marginBottom="60dp"
             app:layout_constraintBottom_toTopOf="@+id/button5"/>
     <Button
-            android:text="@string/cadastre_se"
+            android:text="@string/cadastreSe"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:id="@+id/button8" android:layout_marginTop="60dp"
@@ -35,7 +35,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="@string/celular"
+            android:text="@string/title_activity_login_celular"
             android:ems="10"
             android:id="@+id/editText2"
             android:layout_marginTop="189dp" android:layout_marginBottom="17dp"
@@ -48,13 +48,13 @@
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/editText4"
-            android:text="@string/senha" android:layout_marginBottom="116dp"
+            android:text="@string/password" android:layout_marginBottom="116dp"
             app:layout_constraintBottom_toTopOf="@+id/button5"
             app:layout_constraintTop_toBottomOf="@+id/editText2" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/button7"
             android:layout_marginStart="1dp" android:autofillHints="" tools:targetApi="o"/>
     <Button
-            android:text="@string/login_e_mail"
+            android:text="@string/loginEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button9" android:layout_marginBottom="36dp"
