@@ -3,6 +3,7 @@
           package="com.example.myapplication">
 
     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
             android:allowBackup="true"
@@ -14,11 +15,6 @@
         <activity
                 android:name=".Main3Activity"
                 android:label="@string/title_activity_main3"
-                android:theme="@style/AppTheme.NoActionBar">
-        </activity>
-        <activity
-                android:name=".LoginCelular"
-                android:label="@string/title_activity_login_celular"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
         <activity
