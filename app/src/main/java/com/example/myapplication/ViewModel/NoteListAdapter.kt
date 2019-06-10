@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.ViewModel
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView.Adapter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.note_item.view.*
 
 class Note (val title: String, val description: String)

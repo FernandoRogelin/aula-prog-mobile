@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         tools:showIn="@layout/activity_main2"
-        tools:context=".Main2Activity">
+        tools:context=".View.Main2Activity">
 
     <Button
             android:text="@string/logar"

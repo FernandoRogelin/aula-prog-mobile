@@ -1,8 +1,11 @@
-package com.example.myapplication
+package com.example.myapplication.View
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.StaggeredGridLayoutManager
+import com.example.myapplication.ViewModel.Note
+import com.example.myapplication.ViewModel.NoteListAdapter
+import com.example.myapplication.R
 import kotlinx.android.synthetic.main.activity_main3.*
 
 class Main3Activity : AppCompatActivity() {
@@ -19,11 +22,18 @@ class Main3Activity : AppCompatActivity() {
 
     private fun notes(): List<Note> {
         return listOf(
-            Note("Leitura",
-                "Livro de Kotlin com Android"),
-            Note("Pesquisa",
-                "Como posso melhorar o código dos meus projetos"),
-            Note("Estudo",
-                "Como sincronizar minha App com um Web Service"))
+            Note(
+                "Leitura",
+                "Livro de Kotlin com Android"
+            ),
+            Note(
+                "Pesquisa",
+                "Como posso melhorar o código dos meus projetos"
+            ),
+            Note(
+                "Estudo",
+                "Como sincronizar minha App com um Web Service"
+            )
+        )
     }
 }

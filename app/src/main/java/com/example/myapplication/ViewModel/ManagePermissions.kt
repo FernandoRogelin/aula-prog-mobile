@@ -1,10 +1,11 @@
-package com.example.myapplication
+package com.example.myapplication.ViewModel
 
 import android.app.Activity
 import android.content.pm.PackageManager
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.support.v7.app.AlertDialog
+import com.example.myapplication.View.toast
 
 
 class ManagePermissions(val activity: Activity,val list: List<String>,val code:Int) {

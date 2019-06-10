@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.View
 
 import android.content.Context
 import android.content.Intent
@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import com.example.myapplication.R
+import com.example.myapplication.ViewModel.ManagePermissions
 import kotlinx.android.synthetic.main.content_main2.*
 import java.util.jar.Manifest
 
@@ -24,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             Manifest.permission.CAMERA
         )
 
-        managePermissions = ManagePermissions(this,list,PermissionsRequestCode)
+        managePermissions = ManagePermissions(this, list, PermissionsRequestCode)
 
         button.setOnClickListener{
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M)

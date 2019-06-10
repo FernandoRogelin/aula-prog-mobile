@@ -1,16 +1,18 @@
-package com.example.myapplication
+package com.example.myapplication.Model
 
 import android.content.ContentValues
 import android.content.Context
 import android.database.Cursor
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import com.example.myapplication.View.Main2Activity
 
 
 class MindOrksDBOpenHelper(context: Context,
                            factory: SQLiteDatabase.CursorFactory?) :
     SQLiteOpenHelper(context, DATABASE_NAME,
-        factory, DATABASE_VERSION) {
+        factory, DATABASE_VERSION
+    ) {
     override fun onCreate(db: SQLiteDatabase) {
         val CREATE_PRODUCTS_TABLE = ("CREATE TABLE " +
                 TABLE_NAME + "("
@@ -35,8 +37,8 @@ class MindOrksDBOpenHelper(context: Context,
         return db.rawQuery("SELECT * FROM $TABLE_NAME", null)
     }
     companion object {
-        private val DATABASE_VERSION = 1
-        private val DATABASE_NAME = "mindorksName.db"
+        val DATABASE_VERSION = 1
+        val DATABASE_NAME = "mindorksName.db"
         val TABLE_NAME = "name"
         val COLUMN_ID = "_id"
         val COLUMN_NAME = "username"
